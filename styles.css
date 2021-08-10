@@ -10,11 +10,29 @@ body {
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
-
+.rules{
+  margin-top: 18%;
+  font-size: 90%;
+  color: #fff;
+  background-color:#849eb9 ;
+  text-align: left;
+  padding:6%;
+  border-radius: 6%;
+}
+.rulesmain{
+  width:400px;
+  margin:0;
+}
+.boxes{
+  width:900px;
+  margin:0;
+}
+.maingrig{
+  height:500px;
+  width:100px;
+}
+.subcontainer {
+  margin: 0;
 }
 
 .btn {
@@ -41,10 +59,14 @@ body {
 
 .blue {
   background-color: blue;
+  margin-right: 0;
+  margin-left: 20px;
+  
 }
 
 .yellow {
   background-color: yellow;
+  margin-left: 230px;
 }
 
 .pressed {
